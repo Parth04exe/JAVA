@@ -41,15 +41,19 @@ public class datatype {
     System.out.println(f);
     float f1=1.23E-5f;
     System.out.println(f1);
+    float f2=1.23e-55f;//out of range
     
     long l=1234567891234567891L;//L is required in long at end 
-    //long l=12345678912345678912L;
+    long l=12345678912345678912L;
     System.out.println(l);
 
     double d=5.1234567891234567891234;//15 digit after decimal
     System.out.println(d);
     double d1=5.1234567891234567891234d;//15 digit after decimal with d
     System.out.println(d1);
+    double d2=5234.3456e-167;
+    System.out.println(d2);
+    double d2=5234.3456e-367;//ot of range
 
     boolean bol=true;
     //boolean bol1=True;//error no capital letter in boolean
