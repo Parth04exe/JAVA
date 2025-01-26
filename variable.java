@@ -18,6 +18,7 @@ public class variable {
         System.out.println(d);// c is printed but d is not because c is static //error
         // d must not be declared again
         System.out.println(g);//0 no static initialization
+        System.out.println(variable.g);//0 no static initialization
     }
     
 }
