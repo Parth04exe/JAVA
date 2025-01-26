@@ -20,8 +20,11 @@ public class variable {
         System.out.println(g);//0 no static initialization
         System.out.println(variable.g);//0 no static initialization
 
+        //STRONGLY TYPES CAN NOT BE CHANGED ONCE DECLARED
         int h=5;
-        h=5.5;//error h is int type
+        h=6.55;//error h is int type
+        h=7;//this value will be assigned as final value
+        int h//duplicacy error as declared before
         double h;// duplicate double for h as it is already declared as int
     }
     
