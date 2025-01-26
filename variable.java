@@ -26,6 +26,10 @@ public class variable {
         h=7;//this value will be assigned as final value
         int h//duplicacy error as declared before
         double h;// duplicate double for h as it is already declared as int
+
+        //FINAL
+        final int i=12;
+        i=19;//error
     }
     
 }
