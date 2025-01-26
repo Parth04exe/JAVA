@@ -9,16 +9,21 @@ public class datatype {
     
     char c='a';
     System.out.println(c);
-    
     char c1=97;
     System.out.println(c1);
-    
     char c2=65;
     System.out.println(c2);
-
     char c3=256;
     System.out.println(c3);
-    
+    char c4='\u0000';
+    System.out.println(c4);//' '
+    char c7=0;
+    System.out.println(c7);//' '
+    char c5='\uffff';
+    System.out.println(c5);//?
+    char c6=65523;
+    System.out.println(c6);//?
+
     int a=10;
     System.out.println(a);
     
@@ -31,6 +36,8 @@ public class datatype {
 
     double d=5.1234567891234567891234;//15 digit after decimal
     System.out.println(d);
+    double d1=5.1234567891234567891234d;//15 digit after decimal with d
+    System.out.println(d1);
 
     boolean bol=true;
     //boolean bol1=True;//error no capital letter in boolean
