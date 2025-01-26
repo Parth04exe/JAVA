@@ -19,6 +19,10 @@ public class variable {
         // d must not be declared again
         System.out.println(g);//0 no static initialization
         System.out.println(variable.g);//0 no static initialization
+
+        int h=5;
+        h=5.5;//error h is int type
+        double h;// duplicate double for h as it is already declared as int
     }
     
 }
