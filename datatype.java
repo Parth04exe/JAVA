@@ -26,9 +26,21 @@ public class datatype {
 
     int a=10;
     System.out.println(a);
-    
+    int i=017;
+    System.out.println(i);
+    int i2=018;//not possible out of octal range
+    int i1=0x12;
+    System.out.println(i1);
+    int i3=0xa12;
+    System.out.println(i3);
+    int i4=0xA12;
+    System.out.println(i4);
+    int i5=0xZ12;//out of range only a to z or A TO Z
+
     float f=3.54567890f;//f is required in float at end//7 digit after decimal
     System.out.println(f);
+    float f1=1.23E-5f;
+    System.out.println(f1);
     
     long l=1234567891234567891L;//L is required in long at end 
     //long l=12345678912345678912L;
