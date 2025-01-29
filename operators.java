@@ -73,10 +73,40 @@ public class operators {
 
         //CONDITIONAL OPERATOR
 
+        int num1=1, num2=2, num3=3, num4=4; 
+
         int greatest = (num1 > num2) ? (num1 > num3 ? num1 : num3) : (num2 > num3 ? num2 : num3);
-        int greatest = (num1 > num2) ? (num1 > num3 ? (num1 > num4 ? num1 : num4) : (num3 > num4 ? num3 : num4)) : (num2 > num3 
+        int greatest1 = (num1 > num2) ? (num1 > num3 ? (num1 > num4 ? num1 : num4) : (num3 > num4 ? num3 : num4)) : (num2 > num3 
                            ? (num2 > num4 ? num2 : num4) 
                            : (num3 > num4 ? num3 : num4));
+                           System.out.println(greatest);
+                           System.out.println(greatest1);
+        
+        //NEW OPERATOR
+        operators ob=new operators();
+        boolean check=ob instanceof operators;
+        System.out.println(check);
+
+        String s1=new String("genie ashwani");
+        boolean res7=s1 instanceof String;
+        System.out.println(res7);
+        
+        //int i1=5;
+        Object i1=new Integer(5);
+        boolean res8=i1 instanceof Integer;//Integer is not a class but String is a class so error
+        System.out.println(res8);
+        System.out.println(i1);
+
+        // boolean res9=s1 instanceof operators;//error 
+       // System.out.println(res9);
+
+        Object obj = new String("Hello");
+
+        System.out.println(obj instanceof String);  // true
+        System.out.println(obj instanceof Object);  // true
+        System.out.println(obj instanceof Integer); // Compilation error
+
+        //DOT OPERATOR
     }
     
 }
