@@ -9,7 +9,7 @@ public class control_statement {
         
         if(n1+n2==20)
         {
-            System.out.println("NH4 SE");
+            System.out.println("NH4 SE jaenge");
         }
         else
         {
